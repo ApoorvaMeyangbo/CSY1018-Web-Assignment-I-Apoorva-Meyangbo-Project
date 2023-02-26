@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+
+}
+/*all about the header*/
+/*the whole nav-bar*/
+.nav-wrap{
+    background: #29bee45d;
+    padding: 30px;
+
+}
+/*ul tag as awhole which has 4 list*/
+.nav-bar-list{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*each list item*/
+.nav-item-on{
+    list-style: none;
+    padding: 15px  20px;
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+/*header css ends here*/
+
+/*footer css here*/
+.foot-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #55719b;
+    padding: 40px;
+}
+
+.size-it{
+    padding: 20px  80px;
+}
+
+
+
