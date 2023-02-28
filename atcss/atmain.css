@@ -7,8 +7,24 @@
 .nav-wrap{
     background: #29bee45d;
     padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+.logoimg{
+    width: 40px;
+    border-radius: 50%;
+}
+.nav-name{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px  40px ;
+    padding-right: 60px;
+    font-size: 30px;
+    }
+    
 /*ul tag as awhole which has 4 list*/
 .nav-bar-list{
 display: flex;
