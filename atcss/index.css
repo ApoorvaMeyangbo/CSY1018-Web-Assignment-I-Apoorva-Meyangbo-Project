@@ -7,11 +7,16 @@ body{
     
 }
 /*css for header*/
+header{
+    position: sticky;
+    top: 0px;
+}
 .nav-whole-wrap{
     background-color: #471313;
      padding: 5px  20px;
      position: sticky;
-     cursor: pointer;
+    top: 0;
+    cursor: pointer;
 }
 .name-links{
     display: flex;
@@ -105,13 +110,15 @@ body{
     
     
 }
+
 .part-sec-one{
     background-image: url("../imgplace/hori.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #cccccc;
     background-position: center;
-    position: relative;
+    /*position: relative;*/
+    
     height: 600px;
     
 
@@ -135,3 +142,18 @@ body{
     padding-right: 40px;
     
 }
+
+@media(max-width:800px){
+    .links{
+        flex-direction: column;
+        
+    }
+    /*.name-links{
+        flex-direction: column;
+    }*/
+    .bio-list{
+       flex-direction: column;
+    }
+
+}
+
