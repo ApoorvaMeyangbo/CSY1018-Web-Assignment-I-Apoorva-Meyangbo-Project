@@ -4,6 +4,7 @@
 body{
     margin: 0 0;
     padding: 0 ;
+    background-color: #e2dddd;
     
 }
 /*css for header*/
@@ -88,67 +89,23 @@ header{
     background-color: #ad9d9d;
 }
 /*css for footer ends here*/
-
-/*css for section*/
-/*this is section 1*/
-/*.part-sec-one{
-    background-color: rgb(243, 230, 214);
-    margin: 0;
-    padding: 20px 0;
-}*/
-.sec-one{
-    padding: 10px 20px;
-    /*display: flex;
-    align-items: center;
-    justify-content:center;*/
-
-}
-.intro{
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    
-    
-}
-
-.part-sec-one{
-    background-image: url("../imgplace/hori.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #cccccc;
-    background-position: center;
-    /*position: relative;*/
-    height: 600px;
-    
-    
-
-   
-}
-.bio{
-   padding-left: 40px;
-   padding-bottom: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.bio-list{
-    list-style: none;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-}
-.bio-info{
-    text-align: left;
-    padding-left: 80px;
-    padding-right: 80px;
-
-    
-}
-
 .mail-phone{
     display: none;
 }
 .screen-sm{
     display: none;
+}
+
+.con-info{
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+.con-info-effect{
+    font-size: 38px;
+}
+.text-effect{
+    font-size: 28px;
 }
 
 
