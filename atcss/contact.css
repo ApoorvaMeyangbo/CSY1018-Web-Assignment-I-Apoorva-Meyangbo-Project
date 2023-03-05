@@ -133,7 +133,7 @@ header{
 .screen-sm{
     display: contents;
 }
-.wholefoot{
+/*.wholefoot{
     flex-direction: column;
-}
+}*/
 }
