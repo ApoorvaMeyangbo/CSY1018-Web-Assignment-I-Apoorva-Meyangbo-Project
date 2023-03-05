@@ -4,19 +4,36 @@
 body{
     margin: 0 0;
     padding: 0 ;
-    
+    background-color: #f5f3f3f3;
 }
 /*css for header*/
 header{
-    position: sticky;
+   /* position: sticky;*/
     top: 0px;
+   background-image:url(../imgplace/backdrop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    /*position: relative;*/
+    height: 1000px;
+    
+    
 }
 .nav-whole-wrap{
-    background-color: #471313;
+   /* background-color: #471313;*/
      padding: 5px  20px;
      position: sticky;
     top: 0;
     cursor: pointer;
+    
+}
+.back-scroll{
+    background: rgba(0, 0, 0, 0.3);
+     background-size: cover;
+     background-blend-mode: darken;
+    padding: 0%;
+    
 }
 .name-links{
     display: flex;
@@ -24,6 +41,7 @@ header{
     padding-right: 50px;
     align-items: center;
    justify-content: space-evenly;
+   margin: 0%;
    
     
 }
@@ -89,41 +107,13 @@ header{
 }
 /*css for footer ends here*/
 
-/*css for section*/
-/*this is section 1*/
-/*.part-sec-one{
-    background-color: rgb(243, 230, 214);
-    margin: 0;
-    padding: 20px 0;
-}*/
-.sec-one{
-    padding: 10px 20px;
-    /*display: flex;
-    align-items: center;
-    justify-content:center;*/
 
-}
-.intro{
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    
-    
-}
 
-.part-sec-one{
-    background-image: url("../imgplace/hori.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #cccccc;
-    background-position: center;
-    /*position: relative;*/
-    height: 600px;
-    
+
     
 
    
-}
+
 .bio{
    padding-left: 40px;
    padding-bottom: 40px;
@@ -137,11 +127,21 @@ header{
     align-items: center;
 }
 .bio-info{
-    text-align: left;
+    text-align:justify;
     padding-left: 80px;
-    padding-right: 80px;
-
+    padding-right: 100px;
+    font-size: 20px;   
+}
+.self-intro{
+    font-size: 15px;
+}
+.bio-img{
     
+    padding-left: 80px;
+    border-top-right-radius:10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10% ;
+    border-bottom-right-radius: 10%;
 }
 
 .mail-phone{
@@ -166,7 +166,9 @@ header{
        flex-direction: column;
     }
 
-    
+    .bio-list{
+        flex-direction: column;
+    }
 
 }
 @media(max-width:500px){
@@ -178,5 +180,7 @@ header{
 }
 .wholefoot{
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 }
