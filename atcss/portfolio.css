@@ -1,0 +1,225 @@
+/*css for portfolio projects*/
+.whole-port{
+    padding-left: 80px;
+   padding-bottom: 40px;
+    padding-top: 20px;
+    padding-right: 80px;
+    
+}
+.pro-1{
+    display: flex;
+}
+.proj-1{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.pro-discript{
+    padding-left: 20px;
+    padding-right: 150px;
+}
+/*css for profolio projects end here*/
+
+
+/*pure css just for contact page*/
+.whole-contact-div{
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+/*this is the css for form*/
+.similar-box{
+    width:100% ;
+    padding: 12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.for-sub-btn{
+    width:100% ;
+    background-color:#4CAF50;
+    color: white;
+    padding: 15px 25px;
+    margin: 9px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+input [type=submit] :hover {
+    background-color:#45a049 ;
+}
+
+.contact-form{
+    background-color: rgb(221, 217, 217);
+    padding: 25px;
+    border-radius: 6px;
+    width: 600px;
+}
+.comment-box{
+    width: 90%;
+    border: 1 px solid #ccc;
+    border-radius:12px 20px;
+    padding: 15px;
+    resize: vertical;
+    
+}
+main{
+    padding: 80px 40px;
+}
+
+/*css for form ends here*/
+/*all the css for contact page ends here*/
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 0;
+    padding: 0 ;
+    background-color: #f5f3f3f3;
+}
+/*css for header*/
+header{
+    position: sticky;
+    top: 0px;
+}
+.nav-whole-wrap{
+    background-color: #471313;
+     padding: 5px  20px;
+     position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.name-links{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 50px;
+    align-items: center;
+   justify-content: space-evenly;
+   
+    
+}
+.myname{
+    
+    color: aliceblue;
+    font-size: 25px;
+
+}
+.links{
+    display: flex;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+}
+.link-field{
+    padding: 10px 30px;
+    float: right;
+    justify-content: right;
+   
+}
+.link-field a{
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+.nav-whole-wrap li :hover {
+    background-color: #afaaaa;
+
+
+}
+.nav-whole-wrap li a{
+    padding: 15px 10px;
+    
+}
+
+/*css for header ends*/
+/*css for footer*/
+.wholefoot{
+    display: flex;
+    
+    padding: 10px 20px;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;
+}
+.all-the-foot{
+    background-color: #4d2929;
+    color: white;
+    padding-bottom: 20px;
+}
+.copywrite{
+    text-align: center;
+}
+.second-part a{
+    text-decoration: none;
+    color: beige;
+    padding: 10px 10px;
+}
+.over:hover{
+    background-color: #ad9d9d;
+}
+/*css for footer ends here*/
+
+.mail-phone{
+    display: none;
+}
+.screen-sm{
+    display: none;
+}
+
+
+
+@media(max-width:800px){
+    .links{
+        flex-direction: column;
+        /*align-items: center;*/
+        
+    }
+    /*.name-links{
+        flex-direction: column;
+    }*/
+    .bio-list{
+       flex-direction: column;
+    }
+
+    .bio-list{
+        flex-direction: column;
+    }
+    .whole-contact-div{
+        flex-direction: column;
+    }
+    .proj-1{
+        flex-direction: column;
+    }
+    .whole-port{
+        width: 600px;
+    }
+}
+@media(max-width:500px){
+    .norm-contact {
+ display: none;
+}
+.screen-sm{
+    display: contents;
+}
+.wholefoot{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-form{
+    width: 300px;
+}
+.whole-port:{
+    width: 300px;
+}
+}
+
