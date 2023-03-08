@@ -68,7 +68,11 @@ main{
 /*css for form ends here*/
 /*all the css for contact page ends here*/
 
-
+header{
+    background-color: #f7c7c7;
+    height: 60%;
+    top: 0px;
+}
 *{
     box-sizing: border-box;
 }

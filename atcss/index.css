@@ -10,13 +10,14 @@ body{
 header{
    /* position: sticky;*/
     top: 0px;
-   background-image:url(../imgplace/backdrop.jpg);
-    background-size: cover;
+   /*background-image:url(../imgplace/backdrop.jpg);*/
+   /* background-size: cover;
     background-repeat: no-repeat;
     background-color: #cccccc;
-    background-position: center;
+    background-position: center;*/
     /*position: relative;*/
-    height: 1000px;
+    height: 60%;
+    background-color: #f1d9d9;
     
     
 }
