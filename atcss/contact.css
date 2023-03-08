@@ -60,23 +60,41 @@ body{
     background-color: #f5f3f3f3;
 }
 /*css for header*/
-header{
-    position: sticky;
+.no-color{
+   /* position: sticky;*/
     top: 0px;
+   /*background-image:url(../imgplace/backdrop.jpg);*/
+   /* background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;*/
+    /*position: relative;*/
+    height: 600px;
+    background-color: #f1d9d9;   
 }
+
 .nav-whole-wrap{
-    background-color: #471313;
+   /* background-color: #471313;*/
      padding: 5px  20px;
      position: sticky;
     top: 0;
     cursor: pointer;
+    
+}
+.back-scroll{
+    background: rgba(0, 0, 0, 0.3);
+     background-size: cover;
+     background-blend-mode: darken;
+    padding: 0%;
+    
 }
 .name-links{
     display: flex;
     padding-left: 30px;
     padding-right: 50px;
     align-items: center;
-   justify-content: space-evenly;
+   justify-content: space-between;
+   margin: 0%;
    
     
 }
@@ -113,6 +131,7 @@ header{
     padding: 15px 10px;
     
 }
+
 
 /*css for header ends*/
 /*css for footer*/
