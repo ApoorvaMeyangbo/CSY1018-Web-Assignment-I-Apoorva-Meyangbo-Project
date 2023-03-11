@@ -60,6 +60,7 @@ header{
     justify-content: center;
     
     list-style: none;
+    padding-bottom: 20px;
 }
 .myname{
      
@@ -74,6 +75,7 @@ header{
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+   
 
 }
 .name-links{
@@ -100,19 +102,8 @@ header{
 }
 
 
-@media screen  and (max-width:800px){
-    
- .link{
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-input[type="checkbox"]:checked~.link{
-    display: block;
-}
-}
+
+
 /*css for header ends*/
 /*css for footer*/
 .wholefoot{
@@ -188,21 +179,73 @@ input[type="checkbox"]:checked~.link{
 
 
 @media(max-width:800px){
-    .links{
+    .link{
+        display: none;
         flex-direction: column;
-        /*align-items: center;*/
+        align-items: center;
+        justify-content: center;
         
     }
-    /*.name-links{
-        flex-direction: column;
-    }*/
+    input[type="checkbox"]:checked~.link{
+        display: block;
+    }
+    
     .bio-list{
        flex-direction: column;
+       
     }
 
-    .bio-list{
-        flex-direction: column;
+   .bio-img{
+        height: 300px;
+        width: auto;
+        padding: 0;
     }
+    .bio-info{
+        padding-left: 10px;
+     padding-right: 20px;
+     font-family: 15px;
+     text-align: center;
+    
+    }
+
+    .img-head{
+       
+       
+        padding-top: 30px;
+        margin-top: 0%;
+    
+    }
+    .color-bg{
+        background-color: #ad9d9d;
+        padding: 20px 20px;
+        height: 500px;
+       
+    }
+    .resize{
+        border-radius: 80%;
+        height: 100px;
+        width: auto; 
+    
+    }
+    .img-head-list{
+        font-size: 8px;
+    }
+    .name-in{
+        margin-bottom: 0;
+    
+        padding-bottom: 30px;
+    }
+    .color-bg{
+        background-color: #ad9d9d;
+        padding: 20px 20px;
+        height: 250px;
+       
+    }
+    .no-show-resp{
+        display: none;
+    }
+
+    
 
 }
 @media(max-width:500px){
@@ -216,5 +259,38 @@ input[type="checkbox"]:checked~.link{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.bio-img{
+    height: 200px;
+    width: auto;
+    padding: 0;
+}
+.bio-info{
+    padding-left: 10px;
+padding-right: 20px;
+font-size: 10px;
+text-align: center;
+}
+.resize{
+    border-radius: 80%;
+    height: 50px;
+    width: auto; 
+}
+.img-head-list{
+    font-size: 5px;
+}
+.name-in{
+    margin-bottom: 0;
+
+    padding-bottom: 30px;
+}
+.color-bg{
+    background-color: #ad9d9d;
+    padding: 20px 20px;
+    height: 200px;
+   
+}
+.no-show-resp{
+    display: none;
 }
 }
