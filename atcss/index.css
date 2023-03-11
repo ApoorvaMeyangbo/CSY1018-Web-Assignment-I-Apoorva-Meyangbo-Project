@@ -5,9 +5,18 @@
     align-items: center;
     justify-content: space-evenly;
     padding-top: 60px;
+    margin-top: 0%;
+
+}
+.color-bg{
+    background-color: #ad9d9d;
+    padding: 20px 20px;
+    height: 500px;
+   
 }
 .resize{
-    border-radius: 50%;
+    border-radius: 80%;
+
 }
 /*the css for header img with background ends here*/
 
@@ -20,78 +29,90 @@ body{
     background-color: #f5f3f3f3;
 }
 /*css for header*/
-.no-color{
-   /* position: sticky;*/
-    top: 0px;
-   /*background-image:url(../imgplace/backdrop.jpg);*/
-   /* background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #cccccc;
-    background-position: center;*/
-    /*position: relative;*/
-    height: 600px;
-    background-color: #f1d9d9;   
+*{
+    box-sizing: border-box;
 }
+html,body{
+    width: 100%;
+    height: 100%;
 
+}
+body{
+    margin: 0 0;
+    padding: 0 ;
+    background-color: #f5f3f3f3;
+}
+header{
+    margin-bottom: 0;
+}
 .nav-whole-wrap{
-   /* background-color: #471313;*/
-     padding: 5px  20px;
-     position: sticky;
-    top: 0;
-    cursor: pointer;
+    /* background-color: #471313;*/
+      padding: 5px  20px;
+      position: sticky;
+     top: 0;
+     cursor: pointer;
+     /*border-bottom: 1px solid black;*/
+}
+.link{
+    display: flex;
+    
+   margin-bottom: 0;
+    justify-content: center;
+    
+    list-style: none;
+}
+.myname{
+     
+    color: red;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
     
 }
+
+.click{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+.name-links{
+    text-decoration: none;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 10px 30px;
+
+}
+.name-links:hover{
+    background-color: #bf6a6a;
+
+}
 .back-scroll{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(234, 112, 112, 0.3);
      background-size: cover;
      background-blend-mode: darken;
     padding: 0%;
     
 }
-.name-links{
-    display: flex;
-    padding-left: 30px;
-    padding-right: 50px;
+
+
+@media screen  and (max-width:800px){
+    
+ .link{
+    display: none;
+    flex-direction: column;
     align-items: center;
-   justify-content: space-between;
-   margin: 0%;
-   
+    justify-content: center;
     
 }
-.myname{
-    
-    color: aliceblue;
-    font-size: 25px;
-
-}
-.links{
-    display: flex;
-    float: right;
-    text-decoration: none;
-    list-style: none;
-}
-.link-field{
-    padding: 10px 30px;
-    float: right;
-    justify-content: right;
-   
-}
-.link-field a{
-    text-decoration: none;
-    color: white;
+input[type="checkbox"]:checked~.link{
     display: block;
-
 }
-.nav-whole-wrap li :hover {
-    background-color: #afaaaa;
-
-
 }
-.nav-whole-wrap li a{
-    padding: 15px 10px;
-    
-}
-
 /*css for header ends*/
 /*css for footer*/
 .wholefoot{
